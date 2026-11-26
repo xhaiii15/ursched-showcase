@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Try UrSched
+    url: https://ursched-two.vercel.app
+    about: Visit the live app.
+  - name: Privacy policy
+    url: https://ursched-two.vercel.app/privacy
+    about: Review the live app's Privacy page.

@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a problem in the live UrSched app.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not include passwords, tokens, personal calendar details, or other sensitive information. Do not test with real user data.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the issue without including personal or sensitive data.
+      placeholder: A clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: List the steps using fictional data only.
+      placeholder: |
+        1. Open the calendar
+        2. Try a fictional action
+        3. Observe the result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Avoid including account identifiers or other personal information.
+    validations:
+      required: false

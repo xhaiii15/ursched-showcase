@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an improvement to UrSched.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the idea without sharing personal calendar details, credentials, or other sensitive information.
+  - type: textarea
+    id: need
+    attributes:
+      label: What need would this address?
+      description: Explain the problem or workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Describe the proposed improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
