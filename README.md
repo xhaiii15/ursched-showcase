@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="UrSched logo" width="72" height="72">
+  <img src="assets/ursched-logo.png" alt="UrSched logo" width="72" height="72">
 </p>
 
 <h1 align="center">UrSched</h1>
