@@ -32,7 +32,7 @@ Describe your plans in plain language. See them on a clean calendar. Never miss 
 
 <br>
 
-> [!WARNING]
+> [!NOTE]
 > **UrSched is currently in active development.** Expect bugs and rough edges, and expect frequent updates as new features and fixes ship. If you run into something broken, please [open an issue](https://github.com/xhaiii15/ursched-showcase/issues/new/choose). Feedback is genuinely appreciated.
 
 <br>
